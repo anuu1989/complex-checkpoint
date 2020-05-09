@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  client-deployment
+  labels:
+    name:  my-name
+spec:
+  replicas: 3
+  
